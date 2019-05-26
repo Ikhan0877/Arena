@@ -96,31 +96,6 @@
         </div>
     </div>
     
-<!--
-    <div class="container-fluid p-4">
-        <div class="row">
-            <div class="col-md-4 text-center student-section ">
-                <p class="p-4 mt-4">Students Completed Course</p>
-                <h4 class="stu-cnt p-4">1000+</h4>
-            </div>
-            <div class="col-md-4 text-center student-section">
-                <p class="p-4 mt-4">Students Placed</p>
-                <h4 class="stu-cnt p-4">1000+</h4>
-            </div>
-            <div class="col-md-4 text-center student-section">
-                <p class="p-4 mt-4">Currently studying</p>
-                <h4 class="stu-cnt p-4">1000+</h4>
-            </div>
-            
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <button type="submit" class="blue-borderd-btn w-25 mx-auto">Go to Students Work</button>
-            </div>
-        </div>
-        
-    </div>
--->
     <div class=" course-section">
             <div class="col-md-12"> 
                  <div class="coure-section text-center p-5 text-white"> 
@@ -251,6 +226,29 @@
         </div>
     </div>
     
+    <div class="container-fluid p-4">
+        <div class="row">
+            <div class="col-md-4 text-center student-section ">
+                <p class="p-4 mt-4">Students Completed Course</p>
+                <h4 class="stu-cnt p-4">1000+</h4>
+            </div>
+            <div class="col-md-4 text-center student-section">
+                <p class="p-4 mt-4">Students Placed</p>
+                <h4 class="stu-cnt p-4">1000+</h4>
+            </div>
+            <div class="col-md-4 text-center student-section">
+                <p class="p-4 mt-4">Currently studying</p>
+                <h4 class="stu-cnt p-4">1000+</h4>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button type="submit" class="blue-borderd-btn w-25 mx-auto">Go to Students Work</button>
+            </div>
+        </div>
+        
+    </div>
     <!--Testimonial -->
    <div class="container-fluid testimonial text-white">
        
@@ -268,7 +266,9 @@
             </div>
         </div>
    </div>
-
+    <footer class="container-fluid">
+        
+    </footer>
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
