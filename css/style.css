@@ -1,0 +1,32 @@
+.nav-link{
+    color: #0927E8;
+}
+.smthg{
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.smthg img{
+   object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+.banner-text{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 3vw;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(45, 52, 54,0.8);
+    padding: 15px;  
+    text-align: center;
+    width: 30%;
+}
+.banner-text img{
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+}
