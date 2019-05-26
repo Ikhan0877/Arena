@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 .nav-link{
     color: #0927E8;
 }
@@ -97,6 +101,9 @@
     margin-top: 25px;
     background-color: white;
 }
+.text-theme{
+    color: #0927E8;
+}
 ::-webkit-input-placeholder { /* Edge */
   color: #7A86D2;
 }
@@ -140,9 +147,12 @@
 
 /*about section*/
 .abt-section{
-    background-color: #0927E8;
+    background-color: #3b54f7;
 }
 
+.abt-section h2{
+    font-weight: 400;
+}
 .student-section p{
     color: #0927E8; 
     font-size: 25px;
@@ -153,4 +163,23 @@
     color: #0927E8; 
     font-size: 40px;
     font-weight: 700;
+}
+
+
+/*Course section*/
+.course-section{
+    background-color: #0070FF;
+    padding: 0;
+    margin: 0;
+}
+.border-sm{
+    border-radius: 20px;
+    overflow: hidden;
+   
+}
+.course-cont{
+    white-space: wrap; 
+  height: 150px; 
+  overflow: hidden;
+  text-overflow: ellipsis; margin: 20px 0px;
 }
