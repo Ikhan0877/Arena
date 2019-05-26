@@ -183,3 +183,25 @@
   overflow: hidden;
   text-overflow: ellipsis; margin: 20px 0px;
 }
+
+/*why section*/
+.why-section{
+    background-color: #2585FF;
+}
+.why-section h2{
+    margin-top: 50% ;
+    
+}
+.why-section p{
+    color: white;
+    padding: 10px;
+}
+
+/*testimonial*/
+.testimonial{
+    background-color: #315AFC;
+}
+.testimonial i{
+    font-size: 140px;
+    color: white;
+}
