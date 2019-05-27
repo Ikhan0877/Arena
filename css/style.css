@@ -183,7 +183,9 @@
   overflow: hidden;
   text-overflow: ellipsis; margin: 20px 0px;
 }
-
+.course-card h2{
+    font-size: 20px;
+}
 /*why section*/
 .why-section{
     background-color: #2585FF;
@@ -204,4 +206,8 @@
 .testimonial i{
     font-size: 140px;
     color: white;
+}
+/*footer section*/
+footer{
+    background-color: #00235E;
 }
