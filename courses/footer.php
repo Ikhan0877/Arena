@@ -1,7 +1,7 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col-md-3 text-center">
-                <img class="img-fluid mt-5 " width="200" height="200" src="images/arena-animation-logo.jpg">
+                <img class="img-fluid mt-5 " width="200" height="200" src="../images/arena-animation-logo.jpg">
                 <p class="text-white mt-5">Arena Animation is the leader in Animation Multimedia education with over 20 years of experience, backed by excellent faculty for latest education tools.</p>
             </div>
             <div class="col-md-3 text-center text-white">

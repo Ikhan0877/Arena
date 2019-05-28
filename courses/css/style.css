@@ -1,0 +1,113 @@
+/*vfx prime page*/
+.course-banner{
+    padding: 0;
+    position: relative;
+}
+.course-banner img{
+	object-fit: cover;
+	width: 100%;
+    height: 450px;
+}
+
+.course-title{
+    position: absolute;
+    top:45%;
+    left: 20%;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    padding: 30px;
+    color: blue;
+}
+.course-title h2{
+    text-align: center;
+    letter-spacing: 10px;
+}
+.course-intro{
+    position: absolute;
+    top:28%;
+    left: 40%;
+    background-color: #0984e3;
+    height: auto;
+    padding: 30px;
+    color: white;
+}
+.blue-btn{
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #0927E8;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 15px;
+    margin-top: 25px;
+    background-color: #0927E8;
+}
+.white-btn{
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: #0927E8;
+    color: #0927E8;
+    display: block;
+    width: 80%;
+    padding: 5px 15px;
+    margin-top: 25px;
+    background-color: white;
+}
+.blue-borderd-btn{
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: #0927E8;
+    color: #0927E8;
+    display: block;
+    width: 80%;
+    padding: 5px 15px;
+    margin-top: 25px;
+    background-color: white;
+}
+/*box shadows*/
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+footer{
+    background-color: #00235E;
+}
+
+.course-cont{
+    background-color: #ecf0f1;
+    color: #2980b9;
+}
+.course-cont h2{
+    color: #130f40;
+    height: 100px;
+}
+
+.border-sm{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.course-job{
+    padding: 0;
+}
