@@ -16,28 +16,29 @@
     <div class="container-fluid course-card">
         <div class="row ">
             <div class="col-md-4 col-lg-4 p-5">
-                <div class="card text-center card-1 border-sm  ">
+                <a href="/arena/courses/vfx/vfx-prime-arena.php"><div class="card text-center card-1 border-sm  ">
                     <h2 class="text-theme p-2 mt-2 mb-2">VFX PRIME</h2>
                     <img class="card-img-top p-3" src="images/vfx-prime.jpg" alt="Card image">
 <!--                    <div class="card-body course-cont text-theme p-2">VFX Prime offers end-to-end training on <br />the latest and most advanced <br />tools in the industry.</div> -->
                     <div class="card-footer bg-primary text-center text-white">View Full Details</div>
                 </div>
+                    </a>
             </div>
             <div class="col-md-4 col-lg-4 p-5">
-                <div class="card text-center card-1 border-sm ">
+                <a href="/arena/courses/animation/animation-prime.php"><div class="card text-center card-1 border-sm ">
                     <h2 class=" p-2 mt-2 mb-2 text-theme">ANIMATION PRIME</h2>
                     <img class="card-img-top p-3" src="images/animation-prime-course-in-arena-1200x720.jpg" alt="Card image" />
 <!--                    <div class="card-body course-cont text-theme p-3">It offers complete training in <br />all aspect of animation to make its <br />students capable of employment <br />and progress in the animation industry.</div> -->
                     <div class="card-footer bg-primary text-center text-white">View Full Details</div>
-                </div>
+                </div></a>
             </div>
             <div class="col-md-4 col-lg-4 p-5">
-                <div class="card text-center card-1 border-sm ">
+                <a href="/arena/courses/vfx/vfx-film-making.php"><div class="card text-center card-1 border-sm ">
                     <h2 class="text-theme p-2 mt-2 mb-2">VFX FILM MAKING</h2>
                     <img class="card-img-top p-3" src="images/vfx-film-making.jpg" alt="Card image" />
 <!--                    <div class="card-body course-cont text-theme p-3">The circulum is designed to help you master all the the skills needed to be successful in the VFX filmmaking world.</div> -->
                     <div class="card-footer bg-primary text-center text-white">View Full Details</div>
-                </div>
+                </div></a>
             </div>
             <div class="col-md-4 col-lg-4 p-5">
                 <div class="card text-center card-1 border-sm ">
