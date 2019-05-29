@@ -41,52 +41,66 @@
                 </div></a>
             </div>
             <div class="col-md-4 col-lg-4 p-5">
+               
+                 <a href="/arena/courses/broadcast/broadcast-prime.php">
                 <div class="card text-center card-1 border-sm ">
                     <h2 class="text-theme p-2 mt-2 mb-2">BROADCAST PRIME</h2>
                     <img class="card-img-top p-3" src="images/broadcast-prime-bangalore.jpg" alt="Card image" />
 <!--                    <div class="card-body course-cont text-theme p-3 ">Broadcast Prime trains students tocreate engaging motion visuals by merging the best graphics, animation, live footage,music, sound, electronics,Interactive and unconventional media tools.</div> -->
                     <div class="card-footer bg-primary text-center text-white">View Full Details</div>
                 </div>
+                    </a>
             </div>
             <div class="col-md-4 col-lg-4 p-5">
+                 <a href="/arena/courses/web-graphics/graphic-webdesign-development.php">
                 <div class="card text-center card-1 border-sm ">
                     <h2 class="text-theme p-2 mt-2 mb-2">GWDD</h2>
                     <img class="card-img-top p-3" src="images/graphics-web-design.jpg" alt="Card image" />
 <!--                    <div class="card-body course-cont text-theme p-3">Spread across two terms,this program trains you in all aspects of Graphic Design, Web Design as well as Development. Arena Animation also offers programs focused on web Design and Print & Publishing.</div> -->
                     <div class="card-footer bg-primary text-center text-white">View Full Details</div>
                 </div>
+                </a>
             </div>
             <div class="col-md-4 col-lg-4 p-5">
+                <a href="/arena/courses/digitaladvertising-marketing.php">
                 <div class="card text-center card-1 border-sm ">
+                    
                     <h2 class="text-theme p-2 mt-2 mb-2">DIGITAL MARKETING</h2>
                     <img class="card-img-top p-3" src="images/digital-advertising.jpg"  alt="Card image">
 <!--                    <div class="card-body course-cont text-theme p-3">The Digital Advertising Design and Marketing Program combines technology with creativity to trains students in the conceptual,design,advertising,marketing,technical and analytical aspects of communication for the digital space.</div> -->
                     <div class="card-footer bg-primary text-center text-white">View Full Details</div>
                 </div>
+                </a>
             </div>
             <div class="col-md-4 col-lg-4 p-5">
+                <a href="/arena/courses/web-graphics/print-publishing.php">
                 <div class="card text-center card-1 border-sm ">
                     <h2 class="text-theme p-2 mt-2 mb-2">PRINT & PUBLISHING</h2>
                     <img class="card-img-top p-3" src="images/print-publishing.jpg" alt="Card image">
                
                     <div class="card-footer bg-primary text-center text-white">View Full Details</div>
                 </div>
+                </a>
             </div>
             <div class="col-md-4 col-lg-4 p-5">
+                <a href="/arena/courses/web-graphics/web-designing.php">
                 <div class="card text-center card-1 border-sm ">
                     <h2 class="text-theme p-2 mt-2 mb-2">WEB DESIGNING</h2>
                     <img class="card-img-top p-3" src="images/web-design.png" alt="Card image">
                
                     <div class="card-footer bg-primary text-center text-white">View Full Details</div>
                 </div>
+                </a>
             </div>
             <div class="col-md-4 col-lg-4 p-5">
+                <a href="/arena/courses/ui-ux-design.php">
                 <div class="card text-center card-1 border-sm ">
                     <h2 class="text-theme p-2 mt-2 mb-2">UI/UX DESIGN</h2>
                     <img class="card-img-top p-3" src="images/ui-ux-design.jpg" alt="Card image">
                
                     <div class="card-footer bg-primary text-center text-white">View Full Details</div>
                 </div>
+                    </a>
             </div>
         </div>
     </div>

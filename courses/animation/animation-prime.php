@@ -29,9 +29,14 @@
       </div>
     </div>
     </div>
-    <div class="container-fluid">
-        <h3 class="text-center p-5">Animation Prime, a comprehensive training program in the fundamentals and techniques of animation, provides all-inclusive understandinf of the latest tools and softwares used in the animation process. It prepares students to set theis imagination free through a lively animation career.</h3>
+      <div class="container-fluid text-center mt-4" >
+         <h2 class="text-primary border border-primary p-2">ANIMATION PRIME OVERVIEW</h2>
+        <p class="text-center p-2">It offers complete training in all aspects of animation  to make its students capable of employmeny and progress in the animation industry.</p>
     </div>
+    <div class="container-fluid">
+        <h5 class="text-center p-5">Animation Prime, a comprehensive training program in the fundamentals and techniques of animation, provides all-inclusive understanding of the latest tools and softwares used in the animation process. It prepares students to set theis imagination free through a lively animation career.</h5>
+    </div>
+   
     <!-- Terms card -->
     <div class="container-fluid">
         <div class="row">

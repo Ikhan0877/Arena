@@ -51,7 +51,7 @@
         </div>
     </div>
     <div class="container-fluid">
-        <h3 class="text-center p-5">VFX  prime offers end-to-end training on the latest and most advanced toold in the industry. The program is structured across three terms:</h3>
+        <h5 class="text-center p-5">VFX  prime offers end-to-end training on the latest and most advanced toold in the industry. The program is structured across three terms:</h5>
     </div>
     <!-- Terms card -->
     <div class="container-fluid">

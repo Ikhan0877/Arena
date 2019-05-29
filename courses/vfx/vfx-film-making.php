@@ -30,8 +30,11 @@
       </div>
     </div>
     </div>
+   <div class="container-fluid text-center" >
+         <h2 class="text-primary border border-primary p-2 mt-4">VFX FILM MAKING OVERVIEW</h2>
+    </div>
     <div class="container-fluid">
-        <h3 class="text-center p-5">The curriculum is designed to help you master all the skills needed to be successful in the VFX film making world. It equips you with the knowledge required to create complex visual effects,enabling you to make a name for yourself in the film making Industry.</h3>
+        <h5 class="text-center p-5">The curriculum is designed to help you master all the skills needed to be successful in the VFX film making world. It equips you with the knowledge required to create complex visual effects,enabling you to make a name for yourself in the film making Industry.</h5>
     </div>
     <!-- Terms card -->
     <div class="container-fluid">
