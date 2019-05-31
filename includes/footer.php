@@ -38,7 +38,64 @@
     </footer>
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+		 function isValidEmailAddress(emailAddress) {
+            var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
+            return pattern.test(emailAddress);
+        }
+
+        
+		$(document).on('click', '#submit', function(e){
+            
+            var email = $('#email').val();
+			if ($('#usr').val()=="")
+            {
+                
+                alert('Please Enter your name');
+                $('#usr').focus();
+                e.preventDefault();
+            }
+            else if(!isValidEmailAddress(email)){
+                alert('Please Enter proper email address');
+                $( "#email" ).focus();
+                e.preventDefault();
+            }
+            else if($('#course').val() == 0){
+                alert('Please select any course');
+                $( "#course" ).focus();
+                e.preventDefault();
+            }
+            else if($('#comment').val()=="")
+            {
+				alert('Please enter your comments');
+                $('#comment').focus();
+                e.preventDefault();
+                
+			}
+			else{
+			$firstname=$('#usr').val();
+			$lastname=$('#email').val();				
+				$.ajax({
+					type: "POST",
+					url: "addnew.php",
+					data: {
+						firstname: $firstname,
+						lastname: $lastname,
+						add: 1,
+					},
+					success: function(){
+						showUser();
+					}
+				});
+            }
+		});
+        
+    });
+</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+
 </body>
 </html>

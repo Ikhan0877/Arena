@@ -25,6 +25,7 @@
             height: 600px;
             overflow-y: auto;  
             overflow-x: hidden;
+            margin-bottom: 10px;
         }
         /* width */
 .pos-fixed::-webkit-scrollbar {
@@ -47,6 +48,11 @@
 .pos-fixed::-webkit-scrollbar-thumb:hover {
   background: #b30000; 
 }
+        .comments i{
+            color: yellow;
+            line-height: 5px;
+           
+        }
     </style>
 </head>
 <body>
@@ -69,36 +75,32 @@
    
     <div class="container-fluid mt-5">
         <div class="row" >
-            <div class="col-md-3 text-center p-2 pos-fixed">
+            <div class="col-md-3 col-sm-4 col-xs-4 border text-center p-2 pos-fixed">
                <?php include 'reviews/total.php' ?>
                 <?php include 'reviews/animation-prime-review.php' ?>
                 <?php include 'reviews/vfx-prime.php' ?>
                 <?php include 'reviews/GWDD.php' ?>
                 <?php include 'reviews/uiux-review.php' ?>
             </div>
-            <div class="col-md-9">
-              <div class="comments">
-                  <h5 >Mohamedimran</h5>
-                  <h6>ikhan@gmail.com</h6>
-                  <p>VFX <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                  <p >this is wonderful.</p>
+            <div class="col-md-9 col-sm-8 col-xs-8 border pos-fixed">
+              <div class="row card-1 border-sm p-3 m-2">
+                <div class="col-md-6 ">
+                   <div class="comments ">
+                      <h5 >Mohamedimran</h5>
+                      <h6>ikhan@gmail.com</h6>
+                      <p>VFX <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                      <p >this is wonderful.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <iframe width="250" class="m-3 card-2" height="150" src="https://www.youtube.com/embed/33rtr3fZvi0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
               </div>
-              <div class="comments">
-                  <h5 >Mohamedimran</h5>
-                  <h6>ikhan@gmail.com</h6>
-                  <p>VFX <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                  <p >this is wonderful.</p>
-              </div><div class="comments">
-                  <h5 >Mohamedimran</h5>
-                  <h6>ikhan@gmail.com</h6>
-                  <p>VFX <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                  <p >this is wonderful.</p>
-              </div><div class="comments">
-                  <h5 >Mohamedimran</h5>
-                  <h6>ikhan@gmail.com</h6>
-                  <p>VFX <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                  <p >this is wonderful.</p>
-              </div>
+             
+                
+                
+                
+              
             </div>
     </div>
     </div>

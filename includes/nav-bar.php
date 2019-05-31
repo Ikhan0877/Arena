@@ -10,7 +10,7 @@
           <a class="nav-link text-primary" href="courses.php">Courses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#">Testimonials</a>
+          <a class="nav-link text-primary" href="testimonials.php">Testimonials</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-primary" href="#">Student Corner</a>
