@@ -40,6 +40,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
+        showUser();
 		 function isValidEmailAddress(emailAddress) {
             var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
             return pattern.test(emailAddress);
@@ -85,19 +86,35 @@
 					type: "POST",
 					url: "reviews/addnew.php",
 					data: {
-						firstname: $usr,
+						usr: $usr,
 						email:$email,
                         course:$course,
                         rating:$rating,
                         comment:$comment,
+                        submit:1,
 					},
 					success: function(){
-						//showUser();
-                       
+						showUser();
 					}
 				});
+//                
             }
 		});
+        
+        
+        function showUser(){
+		$.ajax({
+			url: 'reviews/displayrecord.php',
+			type: 'POST',
+			async: false,
+			data:{
+				show: 1
+			},
+			success: function(response){
+				$('#displayrecord').html(response);
+			}
+		});
+	   }
         
     });
     

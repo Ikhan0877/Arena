@@ -82,24 +82,7 @@
                 <?php include 'reviews/GWDD.php' ?>
                 <?php include 'reviews/uiux-review.php' ?>
             </div>
-            <div class="col-md-9 col-sm-8 col-xs-8 border pos-fixed">
-              <div class="row card-1 border-sm p-3 m-2">
-                <div class="col-md-6 ">
-                   <div class="comments ">
-                      <h5 >Mohamedimran</h5>
-                      <h6>ikhan@gmail.com</h6>
-                      <p>VFX <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                      <p >this is wonderful.</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <iframe width="250" class="m-3 card-2" height="150" src="https://www.youtube.com/embed/33rtr3fZvi0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-              </div>
-             
-                
-                
-                
+            <div class="col-md-9 col-sm-8 col-xs-8 border pos-fixed" id="displayrecord">
               
             </div>
     </div>

@@ -14,14 +14,14 @@
           <form action="" method="post">
         <div class="form-group">
           
-          <input type="text" class="form-control" id="usr"  placeholder="Enter your Name" required  >
+          <input type="text" class="form-control" id="usr" name="usr"  placeholder="Enter your Name" required>
         </div>
         <div class="form-group">
           
-          <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" id="email" placeholder="Enter your Email" required >
+          <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" id="email" placeholder="Enter your Email" required >
         </div>
           <div class="form-group">
-              <select class="form-control" id="course">
+              <select class="form-control" name="course" id="course">
                   <option value="0">SELET COURSE</option>
                 <option value="VFX">VFX</option>
                 <option value="ANIMATION">ANIMATION</option>
@@ -46,7 +46,7 @@
               <br>
           <div class="form-group">
               
-              <textarea class="form-control" rows="5" id="comment" placeholder="Your Comment" required></textarea>
+              <textarea class="form-control" rows="5" name="comment" id="comment" placeholder="Your Comment" required></textarea>
           </div>
               <button class="btn btn-primary" name="submit" id="submit" type="submit">SUBMIT</button>
           </form>
