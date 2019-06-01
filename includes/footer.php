@@ -74,24 +74,33 @@
                 
 			}
 			else{
-			$firstname=$('#usr').val();
-			$lastname=$('#email').val();				
+			$usr=$('#usr').val();
+			$email=$('#email').val();
+            $course=$('#course').val();
+            $rating=$('[name=rating]').val();
+            $comment=$('#comment').val();
+           
 				$.ajax({
+                    dataType: 'json',
 					type: "POST",
-					url: "addnew.php",
+					url: "reviews/addnew.php",
 					data: {
-						firstname: $firstname,
-						lastname: $lastname,
-						add: 1,
+						firstname: $usr,
+						email:$email,
+                        course:$course,
+                        rating:$rating,
+                        comment:$comment,
 					},
 					success: function(){
-						showUser();
+						//showUser();
+                       
 					}
 				});
             }
 		});
         
     });
+    
 </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
