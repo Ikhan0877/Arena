@@ -255,3 +255,16 @@ float: right;
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+
+/*events display events style*/
+.event-card p{
+    font-size: 10px;
+    color:gray;
+    margin: 0;
+    padding: 0px;
+}
+.event-card h3{
+    color: black;
+}

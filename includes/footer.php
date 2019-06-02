@@ -78,7 +78,7 @@
 			$usr=$('#usr').val();
 			$email=$('#email').val();
             $course=$('#course').val();
-            $rating=$('[name=rating]').val();
+            $rating=$('input:radio').val();
             $comment=$('#comment').val();
            
 				$.ajax({

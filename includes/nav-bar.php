@@ -16,7 +16,7 @@
           <a class="nav-link text-primary" href="studentwork.php">Student Corner</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#">Events</a>
+          <a class="nav-link text-primary" href="arena-kamanahalli-events.php">Events</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-primary" href="#">About us</a>

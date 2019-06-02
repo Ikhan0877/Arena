@@ -6,7 +6,7 @@
 		?>
 		
 					<?php
-						$quser=mysqli_query($conn,"select * from `review`");
+						$quser=mysqli_query($conn,"select * from `review` order by id desc");
 						while($urow=mysqli_fetch_array($quser)){
 							?>
                                 <div class="row card-1 border-sm p-3 m-2" >
