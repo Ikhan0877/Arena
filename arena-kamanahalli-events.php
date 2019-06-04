@@ -17,19 +17,37 @@
        
         include 'includes/nav-bar.php';
         ?>
-        <div class="container-fluid">
-            <h2 class="text-center p-2 mt-5">OUR EVENTS WORKS</h2>
+        
+                        
+<div class="container-fluid">
+            <h2 class="text-center p-2 mt-5">OUR RECENT EVENTS</h2>
             <p class="text-center p-5">Students in arena exihibit their talent in various subject they have taken as their subject. This would enable you to trust our arena animation for choosing your career.</p>
         </div>
-        <div class="container-fluid">
+<?php
+	include('reviews/confiq.php');
+	?>
+	 <div class="container-fluid">
             <div class="row p-2 m-2">
-                <div class="col-md-4">
-                    <div class="card card-1 border-sm p-4 event-card">
-                        <img src="events/animation-prime-course-in-arena-1200x720.jpg" alt="" height="300" width="">
-                        <h3>Event Name</h3>
-                        <p class="">21/09/2019</p><p>Bangalore</p>
-                    </div>
-                </div>
+		
+					<?php
+						$quser=mysqli_query($conn,"select * from `events`");
+						while($urow=mysqli_fetch_array($quser)){
+							?>
+                            <div class="col-md-4 mt-2">
+                                <a href="/arena/arena-kamanahalli-eventsdetails.php?id=<?=$urow['id']?>"><div class="card card-1 border-sm p-4 event-card">
+                                    <img src="uploads/<?=$urow['banner']?>" alt="" height="300" width="">
+                                    <h3><?=$urow['name']?></h3>
+                                    <p class=""><?=$urow['date']?></p><p><?=$urow['place']?></p>
+                                </div>
+                                </a>
+                            </div>    
+							<?php
+						}
+					
+					?>
+			
+       
+                
             </div>
         </div>
         

@@ -7,22 +7,17 @@
           <a class="nav-link text-primary" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="courses.php">Courses</a>
+          <a class="nav-link text-primary" href="addevents.php">ADD EVENTS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="testimonials.php">Testimonials</a>
+          <a class="nav-link text-primary" href="addstudentworks.php">ADD STUDENT WORKS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="studentwork.php">Student Corner</a>
+          <a class="nav-link text-primary" href="addplacement.php">ADD STUDENT PLACEMENTS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="arena-kamanahalli-events.php">Events</a>
+          <a class="nav-link text-primary" href="viewfeedback.php">VIEW FEEDBACK</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link text-primary" href="#">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-primary" href="#">Contact</a>
-        </li>
+        
       </ul>
     </nav>

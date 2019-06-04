@@ -11,49 +11,6 @@
   <meta name="author" content="Jobith M Basheer">
   <link rel="icon" media="screen" href="images/arena-animation-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <style>
-        .comments{
-            padding: 25px;
-        }
-        .comments h5{
-            
-        }
-        .comments h6{
-            font-size: 10px;
-        }
-        .pos-fixed{
-            height: 600px;
-            overflow-y: auto;  
-            overflow-x: hidden;
-            margin-bottom: 10px;
-        }
-        /* width */
-.pos-fixed::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-.pos-fixed::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 2px grey; 
-  border-radius: 5px;
-}
- 
-/* Handle */
-.pos-fixed::-webkit-scrollbar-thumb {
-  background: blue; 
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-.pos-fixed::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
-}
-        .comments i{
-            color: yellow;
-            line-height: 5px;
-           
-        }
-    </style>
 </head>
 <body>
     <?php include 'includes/nav-bar.php' ?>
