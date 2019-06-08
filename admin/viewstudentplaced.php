@@ -15,17 +15,13 @@
 <?php include 'includes/nav-bar.php';?>
    
     <div class="container mt-5 text-center">
-     <h2 class="r m-3">Complete Testimonial</h2>
-    
+     <h2 class="r m-3">Complete Student Works</h2>
+     <a href="addstudentplacement.php" class="btn btn-primary w-50 m-3">Add Student Works</a>
       <table class="table table-hover table-bordered">
         <thead>
           <tr>
-            <th> Name</th>
-            <th>Email</th>
-            <th>course</th>
-            <th>Rating</th>
-            <th>Comment</th>
-            <th>Operation</th>
+            <th>Student Name</th>
+            <th>operation</th>
           </tr>
         </thead>
         <tbody>
@@ -36,18 +32,16 @@
                         }
                         if(isset($_GET['deleteid'])){
                             $id=$_GET['deleteid'];
-                            mysqli_query($conn,"delete from review where id =$id");
+                            mysqli_query($conn,"delete from studentsplaced where id =$id");
                         }
-						$quser=mysqli_query($conn,"select * from `review` order by id desc");
+						$quser=mysqli_query($conn,"select * from `studentsplaced` order by id desc");
 						while($urow=mysqli_fetch_array($quser)){
 							?>
           <tr>
-            <td><?=$urow['name']?></td>
-            <td><?=$urow['email']?></td>
-            <td><?=$urow['course']?></td>
-            <td><?=$urow['rating']?></td>
-            <td><?=$urow['comment']?></td>
-            <td><a href="viewfeedback.php?deleteid=<?= $urow['id'] ?>" class="btn btn-danger">Delete</a></td>
+            <td><img src="uploads/<?= $urow['link']?>" alt="<?= $urow['link']?>" height="100" width="100"/></td>
+          
+     
+            <td><a href="viewstudentworks.php?deleteid=<?= $urow['id'] ?>" class="btn btn-danger">Delete</a></td>
           </tr>
         <?php }  ?>
         </tbody>

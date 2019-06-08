@@ -17,29 +17,41 @@
     <div class="container-fluid">
         <h2 class="text-center p-2 mt-5">OUR STUDENT WORKS</h2>
         <p class="text-center p-5">Students in arena exihibit their talent in various subject they have taken as their subject. This would enable you to trust our arena animation for choosing your career.</p>
+<!--
+        <div class="row m-2">
+            <div class="col-md-4">
+                <a href="" class="btn blue-btn">UI/UX</a>
+            </div>
+            <div class="col-md-4">
+                <a href="" class="btn blue-btn">VFX</a>
+            </div>
+            <div class="col-md-4">
+                <a href="" class="btn blue-btn">ANIMATION</a>
+            </div>
+            
+        </div>    
+-->
     </div>
-    <div class="student-card container-fluid mb-4 p-3 border" style="height:600px;">
+    <div class="student-card container-fluid border" >
+        <div class="row text-center m-5" >
         <?php
 					include 'reviews/confiq.php';	
                     $quser=mysqli_query($conn,"select * from studentworks");
 						while($urow=mysqli_fetch_array($quser)){
 							?>
-           <div class="row card-1 m-3 text-center  p-3">
-            <div class="col-md-6 col-sm-6 mt-5">
-               	
-                <h4><?php echo $urow['name'] ?></h4>
-                <p><?php echo $urow['course'] ?></p>
-            </div>
-            <div class="col-md-6 col-sm-12 text-center">
-               <?php if($urow['type']=='image'){   ?>
-                    <img src="<?php echo $urow['link']?>" alt="" height="250" width="250">
+           
+            <div class="col-md-3 card-1 col-sm-12 p-1">
+               	    <?php if($urow['type']=='Image'){   ?>
+                    <img src="uploads/<?php echo $urow['link']?>" class="img-fluid" alt="" height="450" width="450">
                <?php }else{?>
                 <iframe width="250" class="m-3 card-2" height="150" src="<?php echo $urow['link']?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <?php } ?>
-               
-                
+                <h4 class="mt-3 font-weight-bold text-uppercase"><?php echo $urow['name'] ?></h4>
+                <p class="p-0 m-0"><?php echo $urow['course'] ?></p>
             </div>
-        </div>
+            
         <?php }?>
+        </div>
+
     </div>
     <?php include 'includes/footer.php' ?>

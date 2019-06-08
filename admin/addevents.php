@@ -12,7 +12,6 @@
 </head>
 <body>
 <?php include 'includes/nav-bar.php';?>
-<html>
 <?php
         if(isset($_POST['submit']))
         {
@@ -123,9 +122,11 @@
         }
 
 ?>
-    <div class="container-fluid ">
+    <div class="container-fluid text-center">
+       <a href="viewevents.php" class="btn btn-primary  mt-5 ">View Events List</a>  
         <div class="row">
             <div class="col-md-4 mx-auto card-1 mt-5 p-4 text-center">
+                    
                      <?php 
                         if(isset($errorMsg))
                         {
@@ -163,7 +164,7 @@
                         </form> 
             </div>
         </div>
-            
+          
     </div>
    
 </html>

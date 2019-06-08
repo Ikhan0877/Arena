@@ -23,32 +23,41 @@
             </p>
         </div>
 -->
+       
         <div class="contact-form card-1">
                 <p>Career guidance</p>
-                <div class="form-group1">
-                  <label for="usr">Name:</label>
-                  <input type="text" class="form-control1" id="usr" placeholder="Enter Your Name">
-                </div>
-                <div class="form-group1">
-                  <label for="email">Email:</label>
-                  <input type="email" class="form-control1" id="email" placeholder="Enter Your Emailid">
-                </div>
-                <div class="form-group1">
-                  <label for="mobile">Mobile:</label>
-                  <input type="tel" class="form-control1" id="mobile" placeholder="Enter Your Mobileno.">
-                </div>
-                <div class="form-group1">
-                  <label for="sel1">Select list:</label>
-                  <select class="form-control1" id="sel1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                  </select>
-                </div>
-                <div class="form-group1">
-                    <button type="submit" class="blue-btn">Submit</button>
-                </div>
+                <form action="reviews/addrequest.php" method="post">
+                    <div class="form-group1">
+                      <label for="user">Name:</label>
+                      <input type="text" class="form-control1" id="user" name="user" placeholder="Enter Your Name">
+                    </div>
+                    <div class="form-group1">
+                      <label for="Cemail">Email:</label>
+                      <input type="email" class="form-control1" id="Cemail" name="Cemail" placeholder="Enter Your Emailid">
+                    </div>
+                    <div class="form-group1">
+                      <label for="mobile">Mobile:</label>
+                      <input type="tel" class="form-control1" name="mobile" id="mobile" placeholder="Enter Your Mobileno.">
+                    </div>
+                    <div class="form-group1" id="course">
+                      <label for="sel1">Select list:</label>
+                      <select class="form-control1" id="subject" name="subject">
+                        <option value="0">SELECT COURSE</option>
+                        <option value="VFX PRIME">VFX PRIME</option>
+                        <option value="ANIMATION PRIME">ANIMATION PRIME</option>
+                        <option value="VFX FILM MAKING">VFX FILM MAKING</option>
+                        <option value="BROADCAST PRIME">BROADCAST PRIME</option>
+                        <option value="GWDD">G W D D</option>
+                        <option value="DIGITAL ADVERTISING DESIGN & MARKETING">DIGITAL ADVERTISING DESIGN & MARKETING</option>
+                        <option value="G W D - PRINT & PUBLISH">G W D - PRINT & PUBLISH</option>
+                        <option value="G W D - WEB DESIGN">G W D - WEB DESIGN</option>
+                        <option value="UI/UX DESIGN">UI/UX DESIGN</option>
+                      </select>
+                    </div>
+                    <div class="form-group1">
+                        <button type="submit" name="contact" id="contact" class="blue-btn">Submit</button>
+                    </div>
+                </form>
         </div>
     </div>
     <div class="container-fluid abt-section pb-4" >

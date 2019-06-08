@@ -13,10 +13,18 @@
           <a class="nav-link text-primary" href="addstudentworks.php">ADD STUDENT WORKS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="addplacement.php">ADD STUDENT PLACEMENTS</a>
+          <a class="nav-link text-primary" href="addstudentplacement.php">ADD STUDENT PLACEMENTS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-primary" href="viewfeedback.php">VIEW FEEDBACK</a>
+        </li>
+        <?php 
+          include 'dbconfig.php';
+          $status_query = "SELECT * FROM contact WHERE status=0";
+          $result_query = mysqli_query($db, $status_query);
+          $count = mysqli_num_rows($result_query); ?>
+        <li class="nav-item">
+          <a class="nav-link bg-primary text-white p-2" href="viewrequest.php">VIEW Request <span class="badge badge-danger p-2"><?= $count ?></span></a>
         </li>
         
       </ul>

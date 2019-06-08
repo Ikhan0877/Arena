@@ -80,6 +80,11 @@
     margin-top: 25px;
     background-color: #0927E8;
 }
+.blue-btn:hover{
+    border: 1px solid #0927E8;
+    background-color: white;
+    color: #0927E8;
+}
 .white-btn{
     border-radius: 30px;
     border-width: 1px;
@@ -90,6 +95,23 @@
     padding: 5px 15px;
     margin-top: 25px;
     background-color: white;
+}
+.white-btn:hover{
+    background-color: #0927E8; 
+    text-decoration: none;
+    color: white;
+}
+.white-btn:hover{
+/*
+    border: 1px solid white;
+    color: white;
+*/
+}
+.white-btn:hover .icon{
+    visibility: visible;
+    left: 20px;
+    -webkit-animation: iconanime 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: iconanime 1s infinite;
 }
 .blue-borderd-btn{
     border-radius: 30px;
@@ -102,6 +124,28 @@
     margin-top: 25px;
     background-color: white;
 }
+.icon{
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+}
+/*animation*/
+.icon{
+    visibility: hidden;
+    position: relative;
+    left: 10px;
+}
+
+@-webkit-keyframes iconanime {
+  from {left: 20px;}
+  to {left: 20px;}
+}
+
+/* Standard syntax */
+@keyframes iconanime {
+  from {left: 10px;}
+  to {left: 20px;}
+}
+
 .text-theme{
     color: #0927E8;
 }
@@ -186,6 +230,12 @@
 .course-card h2{
     font-size: 20px;
 }
+.course-hov:hover a{
+    text-decoration: none;
+    -webkit-animation: iconanime 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: iconanime 1s infinite;
+}
+
 /*why section*/
 .why-section{
     background-color: #2585FF;
@@ -268,45 +318,39 @@ float: right;
 .event-card h3{
     color: black;
 }
-
-.comments{
-            padding: 25px;
-        }
-        .comments h5{
-            
-        }
-        .comments h6{
-            font-size: 10px;
-        }
-        .pos-fixed{
-            height: 600px;
-            overflow-y: auto;  
-            overflow-x: hidden;
-            margin-bottom: 10px;
-        }
-        /* width */
-.pos-fixed::-webkit-scrollbar {
-  width: 10px;
+/*about us page*/
+.about
+{
+    background-image: url(../images/aboutus-animation-kamanahalli.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-/* Track */
-.pos-fixed::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 2px grey; 
-  border-radius: 5px;
+.about-bg{
+    background-color: rgb(255, 255, 255,0.5);
+    height: 200px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top:30%;
 }
- 
-/* Handle */
-.pos-fixed::-webkit-scrollbar-thumb {
-  background: blue; 
-  border-radius: 10px;
+.about-bg h2{
+    text-align: center;
+    position: relative;
+    top:30%;
+    color: rgba(19, 15, 64,1.0);
+    font-weight: bold;
 }
-
-/* Handle on hover */
-.pos-fixed::-webkit-scrollbar-thumb:hover {
-  background: #b30000; 
+.about-bg h5{
+    text-align: center;
+    position: relative;
+    top:40%;
+    color: rgba(19, 15, 64,1.0);
 }
-        .comments i{
-            color: yellow;
-            line-height: 5px;
-           
-        }
+.about-cont i{
+    font-size: 30px;
+}
+.about-cont h3{
+    font-size: 2em;
+}

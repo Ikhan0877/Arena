@@ -1,0 +1,10 @@
+User-Agent:*
+Disallow:/admin
+Disallow:/events
+Disallow:/images
+Disallow:/includes
+Disallow:/reviews
+Disallow:/studentswork
+Disallow:/uploads
+
+

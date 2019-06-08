@@ -15,16 +15,15 @@
 <?php include 'includes/nav-bar.php';?>
    
     <div class="container mt-5 text-center">
-     <h2 class="r m-3">Complete Testimonial</h2>
-    
+     <h2 class="r m-3">Contact Request</h2>
+   
       <table class="table table-hover table-bordered">
         <thead>
           <tr>
-            <th> Name</th>
+            <th>Name</th>
             <th>Email</th>
-            <th>course</th>
-            <th>Rating</th>
-            <th>Comment</th>
+            <th>Mobile</th>
+            <th>Subject</th>
             <th>Operation</th>
           </tr>
         </thead>
@@ -36,18 +35,17 @@
                         }
                         if(isset($_GET['deleteid'])){
                             $id=$_GET['deleteid'];
-                            mysqli_query($conn,"delete from review where id =$id");
+                            mysqli_query($conn,"delete from contact where id =$id");
                         }
-						$quser=mysqli_query($conn,"select * from `review` order by id desc");
+						$quser=mysqli_query($conn,"select * from `contact` order by id desc");
 						while($urow=mysqli_fetch_array($quser)){
 							?>
           <tr>
-            <td><?=$urow['name']?></td>
-            <td><?=$urow['email']?></td>
-            <td><?=$urow['course']?></td>
-            <td><?=$urow['rating']?></td>
-            <td><?=$urow['comment']?></td>
-            <td><a href="viewfeedback.php?deleteid=<?= $urow['id'] ?>" class="btn btn-danger">Delete</a></td>
+            <td><?= $urow['name']?></td>
+            <td><?= $urow['email'] ?></td>
+            <td><?= $urow['mobileno']?></td>
+              <td ><div style="overflow-y:auto; height:100px;"><?= $urow['subject']?></div></td>
+            <td><a href="viewrequest.php?deleteid=<?= $urow['id'] ?>" class="btn btn-danger">Delete</a></td>
           </tr>
         <?php }  ?>
         </tbody>

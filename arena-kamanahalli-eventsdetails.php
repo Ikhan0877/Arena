@@ -27,7 +27,7 @@
 						while($urow=mysqli_fetch_array($quser)){
 							?>
                                 <div class="container-fluid">
-                                    <img src="events/animation-prime-course-in-arena-1200x720.jpg" class="img-fluid"  alt="" style="object-fit:cover;width:100%; height:300px;">
+                                    <img src="uploads/<?=$urow['banner'] ?>" class="img-fluid"  alt="" style="object-fit:cover;width:100%; height:300px;">
                                 </div>
                                 <div class="container-fluid">
                                     <div class="row p-2 m-2">

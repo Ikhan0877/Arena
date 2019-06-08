@@ -45,7 +45,49 @@
             var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
             return pattern.test(emailAddress);
         }
-
+        $(document).on('click','#contact',function(e){
+            if ($('#user').val()=="")
+            {
+                
+                alert('Please Enter your name');
+                $('#user').focus();
+                e.preventDefault();
+            }
+            else if($('#Cemail').val()==""){
+                alert('Please Enter your Email');
+                $('#Cemail').focus();
+                e.preventDefault();
+            }
+            else if($('#subject').val()==0){
+                alert('Please Enter your Course');
+                $('#course').focus();
+                e.preventDefault();
+            }
+            else{
+//                $usr=$('#user').val();
+//                $email=$('#Cemail').val();
+//                $subject=$('#subject').val();
+//                $mobile=$('#mobile').val();
+//                
+//
+//                    $.ajax({
+//                        dataType: 'json',
+//                        type: "POST",
+//                        url: "reviews/addrequest.php",
+//                        data: {
+//                            user: $usr,
+//                            Cemail:$email,
+//                            subject:$subject,
+//                            mobile:$mobile,
+//                            contact:1,
+//                        },
+//                        success: function(){
+//                            alert("Thank you");
+//                        }
+//                    });
+            }
+            
+        });
         
 		$(document).on('click', '#submit', function(e){
             
@@ -78,7 +120,7 @@
 			$usr=$('#usr').val();
 			$email=$('#email').val();
             $course=$('#course').val();
-            $rating=$('input:radio').val();
+            $rating=$("[name=rating]").val();
             $comment=$('#comment').val();
            
 				$.ajax({
