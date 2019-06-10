@@ -17,10 +17,10 @@
     <div class="container-fluid course-banner" >
       <img src="../images/vfx-prime.jpg">
       <div class="row">
-        <div class="col-md-6 col-sm-12 course-title card-1">
+        <div class=" course-title card-1">
           <h2>G W D - PRINT & PUBLISH</h2>
       </div>
-      <div class="col-md-6 col-sm-12 course-intro card-2">
+      <div class=" course-intro card-2">
           <h3>Make the web look woow!!!!!!!!</h3>
           <p>
            Today,everything is progressing towards digital. Companies acriss the world and across industries are taking the digital route,opening up a great number of career oppertunities. While the projected job growth for web developers from 2014 through 2024 is 27%, the graphic design industry is predicted to grow 7% from 2015 to 2022. Thus graphics, web design & development offer great scope for a successful casreer in the near future.

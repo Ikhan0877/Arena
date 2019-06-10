@@ -17,10 +17,10 @@
     <div class="container-fluid course-banner" >
       <img src="../images/vfx-prime.jpg">
       <div class="row">
-        <div class="col-md-6 col-sm-12 course-title card-1">
+        <div class=" course-title card-1">
           <h2>BROADCAST PRIME</h2>
       </div>
-      <div class="col-md-6 col-sm-12 course-intro card-2">
+      <div class=" course-intro card-2">
           <h3>Channel your creativity</h3>
           <p>
             Grabbing Eyeballs The Indian television industry boasts of more than 800 channels offering a wide array of content. These television as well as digital channels have led to a huge demand in 'channel packaging' content. 

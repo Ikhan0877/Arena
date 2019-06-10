@@ -12,9 +12,9 @@
   <link rel="icon" media="screen" href="images/arena-animation-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-<body>
+<body><script>document.body.className += ' fade-out';</script>
 <?php include 'includes/nav-bar.php' ?>
-<div class="container-fluid about p-0">
+<div class="container-fluid mt-4 about p-0">
     <div class="about-bg">
     <h2>WE WANT TO HEAR FROM YOU</h2>
     <h5>HAVE A COMMENT OR QUESTION? SEND US A MESSAGE.</h5>
@@ -54,31 +54,39 @@ arenabanaswadi@gmail.com</p>
     </div>
     <div class="col-md-6 p-5">
          <div class="card-1 p-4 bg-white">
+               <form action="/arena/reviews/addrequest.php" method="post">
                 <h2 class="text-center text-primary">Career guidance</h2>
                 <div class="form-group1">
                   <label for="usr">Name:</label>
-                  <input type="text" class="form-control1" id="usr" placeholder="Enter Your Name">
+                  <input type="text" class="form-control1" name="user" id="user" placeholder="Enter Your Name">
                 </div>
                 <div class="form-group1">
                   <label for="email">Email:</label>
-                  <input type="email" class="form-control1" id="email" placeholder="Enter Your Emailid">
+                  <input type="email" class="form-control1" name="Cemail" id="Cemail" placeholder="Enter Your Emailid">
                 </div>
                 <div class="form-group1">
                   <label for="mobile">Mobile:</label>
-                  <input type="tel" class="form-control1" id="mobile" placeholder="Enter Your Mobileno.">
+                  <input type="tel" class="form-control1" name="mobile" id="mobile" placeholder="Enter Your Mobileno.">
                 </div>
+                <div class="form-group1" name="course" id="course">
+                      <label for="sel1">Select list:</label>
+                      <select class="form-control1" id="subject" name="subject">
+                        <option value="0">SELECT COURSE</option>
+                        <option value="VFX PRIME">VFX PRIME</option>
+                        <option value="ANIMATION PRIME">ANIMATION PRIME</option>
+                        <option value="VFX FILM MAKING">VFX FILM MAKING</option>
+                        <option value="BROADCAST PRIME">BROADCAST PRIME</option>
+                        <option value="GWDD">G W D D</option>
+                        <option value="DIGITAL ADVERTISING DESIGN & MARKETING">DIGITAL ADVERTISING DESIGN & MARKETING</option>
+                        <option value="G W D - PRINT & PUBLISH">G W D - PRINT & PUBLISH</option>
+                        <option value="G W D - WEB DESIGN">G W D - WEB DESIGN</option>
+                        <option value="UI/UX DESIGN">UI/UX DESIGN</option>
+                      </select>
+                    </div>
                 <div class="form-group1">
-                  <label for="sel1">Select list:</label>
-                  <select class="form-control1" id="sel1">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                  </select>
+                    <button type="submit" id="contact" name="contact" class="blue-btn">Submit</button>
                 </div>
-                <div class="form-group1">
-                    <button type="submit" class="blue-btn">Submit</button>
-                </div>
+                </form>
         </div>
     </div>
    </div>

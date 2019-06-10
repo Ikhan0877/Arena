@@ -17,10 +17,10 @@
     <div class="container-fluid course-banner" >
       <img src="../images/vfx-prime.jpg">
       <div class="row">
-        <div class="col-md-6 col-sm-12 course-title card-1">
+        <div class=" course-title card-1">
           <h2>VFX FILM MAKING</h2>
       </div>
-      <div class="col-md-6 col-sm-12 course-intro card-2">
+      <div class=" course-intro card-2">
           <h3>It's time for showbiz!!</h3>
           <p>
             who doesn't love to bea a part of an action-packed film with extraordinary VFX? This course would do exactly that. From VFX design to the creation of a realistic fantasy-world based on the vision of the film director, VFX has indeed become a neccessary feature in today's film making process.

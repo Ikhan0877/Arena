@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
+   <script>document.body.className += ' fade-out';</script>
     <?php include 'includes/nav-bar.php' ?>
     <div class="container-fluid smthg" id="">
         <img src="images/banner-image.jpg" >
@@ -72,7 +73,7 @@
                 </p>
                 <div class="row ">
                     
-                    <div class="col-md-12 col-sm-12 text-center "><button type="submit" class="white-btn mx-auto w-25"><a href="courses.php">View Course details</a></button></div>
+                    <div class="col-md-12 col-sm-12 text-center "><a href="/arena/courses.php" class="white-btn mx-auto">View Course details</a></div>
                 </div>
             </div>
         </div>
@@ -84,7 +85,7 @@
         <div class="row">
             <div class="col-md-3 text-center">
                 <h2 class="p-5 text-white ">Why Arena Animation???</h2>
-                <a href="" class="blue-btn">Visit Us</a>
+                <a href="/arena/contact-us.php" class="blue-btn mx-auto">Visit Us</a>
             </div>
             <div class="col-md-9 text-center">
                 <div class="row">
@@ -137,7 +138,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <button type="submit" class="blue-borderd-btn w-25 mx-auto">Go to Students Work</button>
+                <a href="/arena/studentwork.php" class="blue-btn mx-auto text-center" >Go to Students Work</a>
             </div>
         </div>
         
@@ -155,7 +156,7 @@
             <div class="col-md-4 text-center p-5">
                 <h3 class="text-center p-5">Testimonial</h3>
                 <i class="fas fa-comment-dots"></i>
-                <a href="" class="white-btn text-center mx-auto">Give Us Your feedback</a>
+                <a href="/arena/testimonials.php" class="white-btn text-center mx-auto">Give Us Your feedback</a>
             </div>
         </div>
    </div>

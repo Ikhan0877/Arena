@@ -17,10 +17,10 @@
     <div class="container-fluid course-banner" >
       <img src="../images/vfx-prime.jpg">
       <div class="row">
-        <div class="col-md-6 col-sm-12 course-title card-1">
+        <div class=" course-title card-1">
           <h2>VFX PRIME</h2>
       </div>
-      <div class="col-md-6 col-sm-12 course-intro card-2">
+      <div class=" course-intro card-2">
           <h3>Enhance your imagination with special Effects</h3>
           <p>
             Where reality meets and blends with the imagination,VFX begins. The demand for VFX has been rising relentlessly with the production of movies and television shows set in fantasy worlds with imaginary creatures like dragons,magical realms,extratresstial planets and galaxies, and more. VFX helps transform the ordinary into something Extradinory.

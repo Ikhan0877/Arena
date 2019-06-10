@@ -16,16 +16,16 @@
                 }
                 else
                 {
-                    $name = $_POST['user'];
-                    $email = $_POST['Cemail'];
-                    $subject = $_POST['subject'];
-                    $mobile = $_POST['mobile'];
+                    $name = htmlspecialchars($_POST['user']);
+                    $email = htmlspecialchars($_POST['Cemail']);
+                    $subject = htmlspecialchars($_POST['subject']);
+                    $mobile = htmlspecialchars($_POST['mobile']);
                     $sql = "INSERT INTO contact (name,email,mobileno,subject,status) VALUES ('$name','$email','$mobile','$subject',0)";
                    
                     if (mysqli_query($conn, $sql)) 
                     {
-                      echo "<script type='text/javascript'>alert('Thank you for rating')</script>";
-                      header('Location:/arena/index.php');
+                     
+                      header('Location:/arena/reviews/thankyou.php');
                     }
                     else 
                     {

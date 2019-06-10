@@ -26,6 +26,9 @@
         <li class="nav-item">
           <a class="nav-link bg-primary text-white p-2" href="viewrequest.php">VIEW Request <span class="badge badge-danger p-2"><?= $count ?></span></a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link  text-primary p-2" href="invalid.php">Logout</a>
+        </li>
         
       </ul>
     </nav>

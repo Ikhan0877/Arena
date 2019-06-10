@@ -9,29 +9,6 @@
     height: 450px;
 }
 
-.course-title{
-    position: absolute;
-    top:45%;
-    left: 20%;
-    background-color: white;
-    width: 300px;
-    height: auto;
-    padding: 30px;
-    color: blue;
-}
-.course-title h2{
-    text-align: center;
-    letter-spacing: 5px;
-}
-.course-intro{
-    position: absolute;
-    top:28%;
-    left: 40%;
-    background-color: #0984e3;
-    height: auto;
-    padding: 30px;
-    color: white;
-}
 .blue-btn{
     border-radius: 10px;
     border-width: 1px;
@@ -155,3 +132,107 @@ h1 { font-size: 1.5em; margin: 10px; }
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+@media only screen and (min-width:1000px){
+.course-title{
+    position: absolute;
+    top:45%;
+    left: 20%;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    color: blue;
+}
+
+.course-title h2{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.course-intro{
+    position: absolute;
+    top:28%;
+    left: 40%;
+    background-color: #0984e3;
+    height: auto;
+    padding: 30px;
+    color: white;
+    }
+}
+@media only screen and (max-width:1000px){
+    .course-banner img{
+	object-fit: cover;
+	width: 100%;
+    height: 550px;
+    }
+    .course-title
+    {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    color: blue;
+    }
+    .course-title h2{
+        margin: 10px auto;
+    text-align: center;
+    letter-spacing: 5px;
+        font-size: 20px;
+    }
+    .course-intro{
+    position: absolute;
+    top:20%;
+    left: 10%;
+    background-color: #0984e3;
+    height: auto;
+    padding: 30px;
+    color: white;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .course-title{
+        display: none;
+         position: absolute;
+    top:05%;
+    margin: 0 auto;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    color: blue;
+    }
+    .course-title h2{
+    text-align: center;
+    letter-spacing: 5px;
+        font-size: 10px;
+    }
+    .course-intro{
+    position: absolute;
+    top:5%;
+    left: 0%;
+    background-color: #0984e3;
+    height: auto;
+    padding: 30px;
+    color: white;
+    }
+    .white-btn
+    {
+        width: 80%;
+    }
+    .blue-btn{
+        width: 80%;
+    }
+    .course-title{
+        
+    }
+}
+@media only screen and (min-width:600px){
+    .white-btn{
+        width: 30%;
+    }
+    .blue-btn{
+        width: 30%;
+    }
+}

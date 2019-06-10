@@ -12,9 +12,9 @@
   <link rel="icon" media="screen" href="images/arena-animation-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-<body>
+<body><script>document.body.className += ' fade-out';</script>
     <?php include 'includes/nav-bar.php' ?>
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-top:150px;">
         <h2 class="text-center p-2 mt-5">OUR STUDENT WORKS</h2>
         <p class="text-center p-5">Students in arena exihibit their talent in various subject they have taken as their subject. This would enable you to trust our arena animation for choosing your career.</p>
 <!--
@@ -40,7 +40,8 @@
 						while($urow=mysqli_fetch_array($quser)){
 							?>
            
-            <div class="col-md-3 card-1 col-sm-12 p-1">
+            <div class="col-md-4 card-1 col-sm-12">
+                      <div class=" p-1 ml-2">
                	    <?php if($urow['type']=='Image'){   ?>
                     <img src="uploads/<?php echo $urow['link']?>" class="img-fluid" alt="" height="450" width="450">
                <?php }else{?>
@@ -48,6 +49,7 @@
                 <?php } ?>
                 <h4 class="mt-3 font-weight-bold text-uppercase"><?php echo $urow['name'] ?></h4>
                 <p class="p-0 m-0"><?php echo $urow['course'] ?></p>
+                </div>
             </div>
             
         <?php }?>

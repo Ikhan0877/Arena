@@ -1,4 +1,4 @@
-<div class=" course-section">
+<div class=" course-section mt-4">
             <div class="col-md-12"> 
                  <div class="coure-section text-center p-5 text-white"> 
                     <h2 class="p-3">Courses Offered</h2>
@@ -7,7 +7,7 @@
                     institutions offers power-packed courses that help shape a student's creative career. with trailor-made programs catering
                     to specific domains,ARENA ANIMATION KAMMANHALLI trains students in industry relevant,employment-oriended skills through
                     the most advanced tools and technologies with the help of expert faculty.<br>
-                        <a href="" class="white-btn w-25 mx-auto">Join us</a>
+                        <a href="/arena/contact-us.php" class="white-btn  mx-auto">Join us</a>
                     </p>
                      
                 </div>

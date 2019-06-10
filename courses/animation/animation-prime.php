@@ -17,10 +17,10 @@
     <div class="container-fluid course-banner" >
       <img src="../images/vfx-prime.jpg">
       <div class="row">
-        <div class="col-md-6 col-sm-12 course-title card-1">
+        <div class="course-title card-1">
           <h2>ANIMATION PRIME</h2>
       </div>
-      <div class="col-md-6 col-sm-12 course-intro card-2">
+      <div class=" course-intro card-2">
           <h3>Animate your imagination</h3>
           <p>
            Whatever one can imagine, now it's possible to create it. Well, not literally,nut on screen. Animation makes it all possible. It's a world that offers students countless oppertunities to realize their dreams. They can create and build characters, cartoons and other in animate objects right from scratch. And that's not all. Students can create unlimited number of things, ranging from humans to robots to extinct animals like mammoths, as well as creatures from stories and fables like fairies and monsters.

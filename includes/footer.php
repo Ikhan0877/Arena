@@ -1,7 +1,7 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col-md-3 text-center">
-                <img class="img-fluid mt-5 " width="200" height="200" src="images/arena-animation-logo.jpg">
+                <img class="img-fluid mt-5 " width="200" height="200" src="/arena/images/arena-animation-logo.jpg">
                 <p class="text-white mt-5">Arena Animation is the leader in Animation Multimedia education with over 20 years of experience, backed by excellent faculty for latest education tools.</p>
             </div>
             <div class="col-md-3 text-center text-white">
@@ -40,6 +40,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
+      
+        $('body').removeClass('fade-out');
         showUser();
 		 function isValidEmailAddress(emailAddress) {
             var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
@@ -117,29 +119,7 @@
                 
 			}
 			else{
-			$usr=$('#usr').val();
-			$email=$('#email').val();
-            $course=$('#course').val();
-            $rating=$("[name=rating]").val();
-            $comment=$('#comment').val();
-           
-				$.ajax({
-                    dataType: 'json',
-					type: "POST",
-					url: "reviews/addnew.php",
-					data: {
-						usr: $usr,
-						email:$email,
-                        course:$course,
-                        rating:$rating,
-                        comment:$comment,
-                        submit:1,
-					},
-					success: function(){
-						showUser();
-					}
-				});
-//                
+			 break;
             }
 		});
         

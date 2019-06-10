@@ -12,14 +12,14 @@
   <link rel="icon" media="screen" href="images/arena-animation-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-<body>
+<body><script>document.body.className += ' fade-out';</script>
     <?php 
        
         include 'includes/nav-bar.php';
         ?>
         
                         
-<div class="container-fluid">
+<div class="container-fluid " style="margin-top:150px;">
             <h2 class="text-center p-2 mt-5">OUR RECENT EVENTS</h2>
             <p class="text-center p-5">Students in arena exihibit their talent in various subject they have taken as their subject. This would enable you to trust our arena animation for choosing your career.</p>
         </div>
