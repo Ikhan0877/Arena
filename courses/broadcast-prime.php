@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Arena Animation Kammanahalli | Best Animation Institute in Bangalore</title>
+  <title>Course | Broadcast prime | Best Animation Institute in Bangalore</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <meta name="keywords" content="animation centers in bangalore,Animation, Web designing, 2D Animation, VFX, 3D Animation,Graphic designing,Arena Animation, Bangalore Animation Institute, Arena Kammanahalli,Best Multimedia institute, arena in Bangalore, Animation colleges, arena animation Bangalore, Educational courses, animation education, animation degree in Bangalore, Arena Multimedia etc, animation institute in bangalore">
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
-  <meta name="description" content="Arena Animation Kammanahalli">
-  <meta name="author" content="Jobith M Basheer">
-  <link rel="icon" media="screen" href="../images/arena-animation-icon.ico">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" media="screen" href="../images/arena-animation-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <meta name="keywords" content=" Broadcast prime,Broadcast prime course arena,arena Broadcast prime,Broadcast prime,Broadcast prime course in bangalore,Broadcast prime course arena,arena Broadcast prime">
+  <meta name="description" content="Broadcast prime course offered by one of the top instution arena animation Kammanahalli">
+  <meta name="author" content="Mohamed Imran Khan S.">
+    <style>
+    .course-banner{
+	background-image: url(images/bnnr/Broadcast-Prime.jpg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+      
+    </style>
 </head>
 <body>
-    <?php include '../nav-bar.php'; ?>
+    <?php include 'nav-bar.php'; ?>
     <div class="container-fluid course-banner" >
-      <img src="../images/vfx-prime.jpg">
-      <div class="row">
-        <div class=" course-title card-1">
-          <h2>BROADCAST PRIME</h2>
+    
+      
+    </div>
+    <div class="row p-5 bg-light border-bottom">
+        <div class="col-md-4 course-title">
+          <h2 class="mt-5">BROADCAST PRIME</h2>
       </div>
-      <div class=" course-intro card-2">
+      <div class="course-intro col-md-8 card-2 p-5">
           <h3>Channel your creativity</h3>
-          <p>
+          <p >
             Grabbing Eyeballs The Indian television industry boasts of more than 800 channels offering a wide array of content. These television as well as digital channels have led to a huge demand in 'channel packaging' content. 
            </p>
            <a href="" class="white-btn w-25 mx-auto text-center">Join Us</a>
       </div>
     </div>
-    </div>
    <div class="container-fluid text-center" >
-         <h2 class="text-primary border border-primary p-2 mt-4">BROADCAST PRIME OVERVIEW</h2>
+         <h2 class="text-primary mt-2 border border-primary p-2 card-2 rounded w-50 mx-auto">BROADCAST PRIME OVERVIEW</h2>
     </div>
     <div class="container-fluid">
         <h5 class="text-center p-5">The Broadcast Prime trains students to create engaging motion visuals by merging the best of graphic, animation, live footage, music, sound, electronics, interactive and unconventional media tools.</h5>
     </div>
     <!-- Terms card -->
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
         <div class="row">
             <div class="col-md-6 p-5">
                  <div class="card card-1 border-sm text-center">
@@ -77,7 +87,7 @@
             </div>
             
         </div>
-        <div class="container-fluid text-center bg-primary p-5 text-white course-job " >
+        <div class="container-fluid text-center bg-primary p-5 text-white course-job m-0" >
             <h4 class="border border-white p-2">On Completion, this program opens up a wide range of job roles for the students.</h4>
             <p class="p-2">Graphic Designer | illustrator |  Storyboard Artist | Video Editor | Broadcast Designer 3D Motion Graphics Artist | Compositor | Videographer | CG Modeler</p>
         </div>

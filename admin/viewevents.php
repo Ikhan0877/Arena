@@ -1,3 +1,11 @@
+<?php
+    session_start();
+    //echo $_SESSION[];
+    if($_SESSION["user"] != 'green'){
+       header("Location : index.php");
+       die();
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,6 +43,7 @@
                         }
                         if(isset($_GET['deleteid'])){
                             $id=$_GET['deleteid'];
+                            mysqli_query($conn,"delete from image where id=$id");
                             mysqli_query($conn,"delete from events where id =$id");
                         }
 						$quser=mysqli_query($conn,"select * from `events` order by id desc");

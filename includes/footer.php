@@ -1,4 +1,4 @@
-    <footer class="container-fluid">
+    <footer class="container-fluid" style="background:#05015D;">
         <div class="row">
             <div class="col-md-3 text-center">
                 <img class="img-fluid mt-5 " width="200" height="200" src="/arena/images/arena-animation-logo.jpg">
@@ -7,16 +7,16 @@
             <div class="col-md-3 text-center text-white">
                 <h3 class="mt-5">Navigations</h3>
                 <ul class="mt-5">
-                    <li class="list-unstyled mt-2">Home</li>
-                    <li class="list-unstyled mt-2">Course</li>
-                    <li class="list-unstyled mt-2">Students Work</li>
-                    <li class="list-unstyled mt-2">Testimonial</li>
-                    <li class="list-unstyled mt-2">Events</li>
+                    <li class="list-unstyled mt-2"><a href="index.php">Home</a></li>
+                    <li class="list-unstyled mt-2"> <a href="courses.php">Course</a> </li>
+                    <li class="list-unstyled mt-2"> <a href="studentwork.php">Students Works</a>  </li>
+                    <li class="list-unstyled mt-2"><a href="testimonials.php">Testimonial</a></li>
+                    <li class="list-unstyled mt-2"><a href="arena-kamanahalli-events.php">Events</a></li>
                 </ul>
             </div>
             <div class="col-md-3 text-center text-white">
                 <h3 class="mt-5">Contact Information</h3>
-                <p class="mt-5 p-5"> 
+                <p class="mt-5 p-5 text-primary"> 
                     # 436, 4th Cross,
                     Kalyan Nagar HRBR Layout, 
                     2nd Block, Bangalore - 43
@@ -27,15 +27,19 @@
                 <i class="fab fa-twitter text-primary p-2"style="font-size:25px;"></i>
             </div>
              <div class="col-md-3 text-center text-white">
-                <h3 class="mt-5 rounded-circle mx-auto" ><i class="fas fa-headset p-3" style="font-size:60px;"></i></h3>
-                 <p>080-25423786 / 9844586786</p>
-                 <h3 class="mt-5"><i class="fas fa-envelope-square p-3" style="font-size:60px;"></i></h3>
-                 <p>admin@arenakamanahalli.in<br>
+                <h3 class="mt-5 rounded-circle mx-auto text-primary" ><i class="fas fa-headset p-3" style="font-size:60px;"></i></h3>
+                 <p class="">080-25423786 / 9844586786</p>
+                 <h3 class="mt-5 text-primary"><i class="fas fa-envelope-square p-3" style="font-size:60px;"></i></h3>
+                 <p >admin@arenakamanahalli.in<br>
                      arenabanaswadi@gmail.com
                  </p>
             </div>
         </div>
+        
     </footer>
+    <div class="container-fluid bg-dark  text-white text-center">
+            	 <small>&copy; Copyright 2019, Arena Animation Kammanahalli. All Rights Reserved</small>
+        </div>
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script type="text/javascript">

@@ -14,7 +14,7 @@
         echo "<script type='text/javascript'>alert('Thank you for rating');</script>";
         if (mysqli_query($conn, $sql)) 
         {
-           header('Location:/arena/reviews/thankyou.php');
+           header('Location: ../thankyou.php');
         }
         else 
         {

@@ -25,7 +25,7 @@
                     if (mysqli_query($conn, $sql)) 
                     {
                      
-                      header('Location:/arena/reviews/thankyou.php');
+                      header('Location: /arena/thankyou.php');
                     }
                     else 
                     {

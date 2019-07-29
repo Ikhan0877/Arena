@@ -5,20 +5,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <meta name="keywords" content="animation centers in bangalore,Animation, Web designing, 2D Animation, VFX, 3D Animation,Graphic designing,Arena Animation, Bangalore Animation Institute, Arena Kammanahalli,Best Multimedia institute, arena in Bangalore, Animation colleges, arena animation Bangalore, Educational courses, animation education, animation degree in Bangalore, Arena Multimedia etc, animation institute in bangalore">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <meta name="description" content="Arena Animation Kammanahalli">
-  <meta name="author" content="Jobith M Basheer">
   <link rel="icon" media="screen" href="../images/arena-animation-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <meta name="keywords" content=" UI-UX DESIGNERS,UI-UX DESIGNERS course arena,arena UI-UX DESIGNERS,UI-UX DESIGNERS,UI-UX DESIGNERS course in bangalore,UI-UX DESIGNERS course arena,arena UI-UX DESIGNERS">
+  <meta name="description" content="UI-UX DESIGNERS course offered by one of the top instution arena animation Kammanahalli">
+  <meta name="author" content="Mohamed Imran Khan S.">
+    <style>
+    .course-banner{
+	background-image: url(images/bnnr/UI-UX.jpg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    </style>
 </head>
 <body>
     <?php include 'nav-bar.php'; ?>
-    <div class="container-fluid course-banner" >
-      <img src="../images/vfx-prime.jpg">
-      <div class="row">
-        <div class="col-md-6 col-sm-12 course-title card-1" id="digit">
-          <h2>UI/UX DESIGN</h2>
+    <div class="container-fluid course-banner" > 
+    </div>
+    <div class="row bg-light border-bottom">
+        <div class="col-md-6 col-sm-12 course-title " id="digit">
+          <h2 class="mt-5">UI/UX DESIGN</h2>
       </div>
       <div class="col-md-6 col-sm-12 course-intro card-2">
           <h3>Enter a revolutionary world</h3>
@@ -27,11 +35,10 @@
 
 You will learn current best practices and conventions in UI and UX, and apply them to create effective, compelling and navigation-friendly based experiences for website users on computers and mobiles.
            </p>
-           <a href="" class="white-btn w-25 mx-auto text-center">Join Us</a>
+           <a href="" class="white-btn w-25 w-100-sm mx-auto text-center">Join Us</a>
       </div>
     </div>
-    </div>
-    <div class="container-fluid text-center" >
+    <div class="container-fluid text-center pg-name" >
          <h2 class="text-primary border border-primary p-2 mt-4">UI/UX Design Overview</h2>
     </div>
     <div class="container-fluid">
@@ -39,8 +46,8 @@ You will learn current best practices and conventions in UI and UX, and apply th
 Want to learn UI-UX Design from Scratch. Arena offers a comprehensive course that trains you on all aspects of user interface and user experience design to make you job ready. While UI design is about the look and feel of the website or app, UX design improves the overall experience of the users when they interact with the website or app. With Arena Animation's UI-UX Design course, you will learn end-to-end aspects of user interface and user experience design.</h5>
     </div>
     <!-- Terms card -->
-    <div class="container-fluid">
-        <div class="row p-3">
+    <div class="container-fluid p-0">
+        <div class="row p-5">
             <div class="col-md-6 p-5">
                 <div class="card card-1 border-sm text-center">
                     <div class="card-header text-center bg-primary text-white"><h3>Term 1</h3></div>

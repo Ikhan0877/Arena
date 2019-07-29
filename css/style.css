@@ -86,12 +86,11 @@ body.fade-out {
     border-color: #0927E8;
     color: white;
     display: block;
-    
     padding: 5px 15px;
     margin-top: 25px;
     background-color: #0927E8;
     transition: all .5s;
-   
+    width: 50%;
 }
 .blue-btn:hover{
     border: 1px solid #0927E8;
@@ -105,7 +104,7 @@ body.fade-out {
     border-color: #0927E8;
     color: #0927E8;
     display: block;
-    
+    width: 50%;
     padding: 5px 15px;
     margin-top: 25px;
     background-color: white;
@@ -117,18 +116,7 @@ body.fade-out {
     color: white;
     text-decoration: none;
 }
-.white-btn:hover{
-/*
-    border: 1px solid white;
-    color: white;
-*/
-}
-.white-btn:hover .icon{
-    visibility: visible;
-    left: 20px;
-    -webkit-animation: iconanime 1s infinite; /* Safari 4.0 - 8.0 */
-    animation: iconanime 1s infinite;
-}
+
 .blue-borderd-btn{
     border-radius: 30px;
     border-width: 1px;
@@ -218,7 +206,7 @@ body.fade-out {
     color: #0927E8; 
     font-size: 25px;
     font-weight: 400;
-    padding: 
+    /* padding:  */
 }
 .stu-cnt{
     color: #0927E8; 
@@ -330,7 +318,7 @@ footer{
     font-size: 2em;
 }
 .thank{
-    background-image: url(../images/thank-you.jpg);
+    background-image: url(images/thank-you.jpg);
    
     width: 100%;
     background-position:top;
@@ -372,23 +360,24 @@ label.star:before {
 }
 
 
-@media only screen and (min-width:600px){
+@media only screen and (min-width:1200px){
     .white-btn{
-        width: 30%;
+        width: 40%;
     }
     .blue-btn{
-        width: 30%;
+        width: 40%;
     }
 }
 @media only screen and (max-width: 600px) {
  .contact-form{
         position: absolute;
-        top:5%;
+        top:15%;
         right: 5%;
         width:  90%;
         background-color: white;
         padding: 15px;
         border-radius: 10px;
+    
     }
     .contact-form p{
     margin: 0 0  0;
@@ -397,6 +386,9 @@ label.star:before {
     color: #0927E8;
     letter-spacing: 1px;
     }
+    .abt-section{
+        margin-top: 100px;
+    }
     .white-btn
     {
         width: 80%;
@@ -404,7 +396,7 @@ label.star:before {
     .blue-btn{
         width: 80%;
     }
-    .course-title{
+    /* .course-title{
         
-    }
+    } */
 }

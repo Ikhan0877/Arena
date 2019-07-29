@@ -6,27 +6,27 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto ">
+      <ul class="navbar-nav ml-auto text-center">
         <li class="nav-item active">
-          <a class="nav-link text-primary" href="/arena/index.php">Home</a>
+          <a class="nav-link text-primary" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="/arena/courses.php">Courses</a>
+          <a class="nav-link text-primary" href="courses.php">Courses</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="/arena/testimonials.php">Testimonials</a>
+          <a class="nav-link text-primary" href="testimonials.php">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="/arena/studentwork.php">Student Corner</a>
+          <a class="nav-link text-primary" href="studentwork.php">Student Corner</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="/arena/arena-kamanahalli-events.php">Events</a>
+          <a class="nav-link text-primary" href="arena-kamanahalli-events.php">Events</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="#">About us</a>
+          <a class="nav-link text-primary" href="index.php#about">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-primary" href="/arena/contact-us.php">Contact</a>
+          <a class="nav-link text-primary" href="contact-us.php">Contact</a>
         </li>
       </ul>
       </div>

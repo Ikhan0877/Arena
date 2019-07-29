@@ -6,5 +6,5 @@ Disallow:/includes
 Disallow:/reviews
 Disallow:/studentswork
 Disallow:/uploads
-
+Disallow: thankyou.php
 

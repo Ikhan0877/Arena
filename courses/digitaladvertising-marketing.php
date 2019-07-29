@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Arena Animation Kammanahalli | Best Animation Institute in Bangalore</title>
+  <title>Courses | Digital Advertising | ARENA ANIMATION Kammanahalli</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <meta name="keywords" content="animation centers in bangalore,Animation, Web designing, 2D Animation, VFX, 3D Animation,Graphic designing,Arena Animation, Bangalore Animation Institute, Arena Kammanahalli,Best Multimedia institute, arena in Bangalore, Animation colleges, arena animation Bangalore, Educational courses, animation education, animation degree in Bangalore, Arena Multimedia etc, animation institute in bangalore">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <meta name="description" content="Arena Animation Kammanahalli">
-  <meta name="author" content="Jobith M Basheer">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="icon" media="screen" href="../images/arena-animation-icon.ico">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <meta name="keywords" content="Digital advertising,advertising course arena,arena digital advertising,digital marketing,digital marketing course in bangalore,digital marketing course arena,arena digital">
+  <meta name="description" content="Digital Advertising course offered by one of the top instution arena animation Kammanahalli">
+  <meta name="author" content="Mohamed Imran Khan S.">
 </head>
 <body>
     <?php include 'nav-bar.php'; ?>
     <div class="container-fluid course-banner" >
-      <img src="../images/vfx-prime.jpg">
-      <div class="row">
-        <div class="col-md-6 col-sm-12 course-title card-1" id="digit">
-          <h2>DIGITAL ADVERTISING DESIGN & MARKETING</h2>
+    </div>
+    <div class="row  bg-light border-bottom">
+        <div class="col-md-4 course-title">
+          <h2 class="mt-5">DIGITAL ADVERTISING DESIGN & MARKETING</h2>
       </div>
-      <div class="col-md-6 col-sm-12 course-intro card-2">
+      <div class="course-intro col-md-8 card-2 p-5">
           <h3>Light up the digital world</h3>
-          <p>
+          <p >
            Digital Advertising Design and Marketing is a comprehensive course that trains you in all aspects of digital designing and makes you a job-ready professional. It gives you a thorough grounding in the fundamentals & techniques of digital illustrations, typography techniques, digital advertising concepts, digital video techniques, internet advertising, email marketing, and mobile marketing. The course combines technology with creativity to you in the concept, design, advertising, marketing, technical and analytical aspects of communication for the digital space.
            </p>
            <a href="" class="white-btn w-25 mx-auto text-center">Join Us</a>
       </div>
     </div>
-    </div>
-    <div class="container-fluid text-center" >
-         <h2 class="text-primary border border-primary p-2 mt-4">DIGITAL ADVERTISING DESIGN AND MARKETING PROGRAM OVERVIEW</h2>
+    
+    <div class="container-fluid text-center pg-name" >
+         <h2 class="text-primary mt-2 border border-primary p-2 card-2 rounded w-75 mx-auto">DIGITAL ADVERTISING DESIGN AND MARKETING PROGRAM OVERVIEW</h2>
     </div>
     <div class="container-fluid">
-        <h5 class="text-center p-5">The Digital Adevertising Design and  Marketing Program combaines technology with creativity to train students in the conceptual, design, advertising, marketing ,technical and analytical aspects of communication for the digital space.This helps students emerge as job-ready professional, ready to make impact in the digital world.</h5>
+        <h6 class="text-center p-5">The Digital Adevertising Design and  Marketing Program combaines technology with creativity to train students in the conceptual, design, advertising, marketing ,technical and analytical aspects of communication for the digital space.This helps students emerge as job-ready professional, ready to make impact in the digital world.</h6>
     </div>
     <!-- Terms card -->
     <div class="container-fluid">

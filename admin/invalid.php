@@ -1,4 +1,8 @@
 <?php 
+// remove all session variables
 session_unset(); 
+
+// destroy the session 
 session_destroy(); 
-exit(header("Location: /arena/admin/index.php"));
+
+header("Location: index.php");

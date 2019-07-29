@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Arena Animation Kammanahalli | Best Animation Institute in Bangalore</title>
+  <title>Contact Us | Arena Animation Kammanahalli | Best Animation Institute in Bangalore</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <meta name="keywords" content="animation centers in bangalore,Animation, Web designing, 2D Animation, VFX, 3D Animation,Graphic designing,Arena Animation, Bangalore Animation Institute, Arena Kammanahalli,Best Multimedia institute, arena in Bangalore, Animation colleges, arena animation Bangalore, Educational courses, animation education, animation degree in Bangalore, Arena Multimedia etc, animation institute in bangalore">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <meta name="description" content="Arena Animation Kammanahalli">
-  <meta name="author" content="Jobith M Basheer">
+  <meta name="description" content="Contact Arena Animation Kammanahalli for more details on courses offered. We are open from monday to saturday.">
+  <meta name="author" content="Mohamed Imran Khan s.">
   <link rel="icon" media="screen" href="images/arena-animation-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
@@ -29,25 +29,25 @@
         <div class="row mt-4 p-2">
            <div class="col-md-6 about-cont p-2">
                 <i class="fas fa-map-marker-alt"></i>
-                <h3>Address</h3>   
+                <h5 class="text-light">Address</h5><br/>   
                 <p># 436, 4th Cross, Kalyan Nagar HRBR Layout, 2nd Block, Bangalore - 43</p>
            </div>
            <div class="col-md-6 about-cont p-2">
                 <i class="fas fa-phone"></i>
-                <h3>Phone/Fax</h3>   
+                <h5>Phone/Fax</h5>  <br/> 
                 <p>080-25423786 / 9844586786</p>
            </div>
         </div>
         <div class="row p-2">
             <div class="col-md-6 about-cont p-2">
                 <i class="fas fa-envelope-open"></i>
-                <h3>Email</h3>   
+                <h5>Email</h5> <br />  
                 <p>admin@arenakamanahalli.in
 arenabanaswadi@gmail.com</p>
            </div>
            <div class="col-md-6 about-cont p-2">
                 <i class="fas fa-briefcase"></i>
-                <h3>Office Hours</h3>   
+                <h5>Office Hours</h5>   <br/>
                 <p>Mon-Sat<br>9:00am to 8:00pm</p>
            </div>
         </div>
@@ -84,7 +84,7 @@ arenabanaswadi@gmail.com</p>
                       </select>
                     </div>
                 <div class="form-group1">
-                    <button type="submit" id="contact" name="contact" class="blue-btn">Submit</button>
+                    <button type="submit" id="contact" name="contact" class="blue-btn mx-auto">Submit</button>
                 </div>
                 </form>
         </div>
@@ -93,6 +93,6 @@ arenabanaswadi@gmail.com</p>
 </div>
 
 <div class="container-fluid">
-    <div class="mapouter"><div class="gmap_canvas"><iframe style="width:100%;"  height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=masjid%20jaffar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style>Web design by <a href="https://www.yellowrocketagency.com">YellowRocketAgency</a></div>
+    <div class="mapouter"><div class="gmap_canvas"><iframe style="width:100%;"  height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15548.859924665136!2d77.6394108!3d13.0219775!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b865af76b42494!2sArena+Animation+Kammanahalli!5e0!3m2!1sen!2sin!4v1560258647818!5m2!1sen!2sin" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style>Web design by <a href="https://www.yellowrocketagency.com">YellowRocketAgency</a></div>
 </div>
 <?php include 'includes/footer.php'?>

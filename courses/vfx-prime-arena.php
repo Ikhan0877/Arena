@@ -1,42 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Arena Animation Kammanahalli | Best Animation Institute in Bangalore</title>
+  <title>Courses | Vfx Prime | Arena Animation Kammanahalli</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <meta name="keywords" content="animation centers in bangalore,Animation, Web designing, 2D Animation, VFX, 3D Animation,Graphic designing,Arena Animation, Bangalore Animation Institute, Arena Kammanahalli,Best Multimedia institute, arena in Bangalore, Animation colleges, arena animation Bangalore, Educational courses, animation education, animation degree in Bangalore, Arena Multimedia etc, animation institute in bangalore">
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
-  <meta name="description" content="Arena Animation Kammanahalli">
-  <meta name="author" content="Jobith M Basheer">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="keywords" content=" VFX PRIME,VFX PRIME course arena,arena VFX PRIME,VFX PRIME,VFX PRIME course in bangalore,VFX PRIME course arena,arena VFX PRIME">
+  <meta name="description" content="VFX PRIME course offered by one of the top instution arena animation Kammanahalli">
+  <meta name="author" content="Mohamed Imran Khan S.">
   <link rel="icon" media="screen" href="../images/arena-animation-icon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+    .course-banner{
+	background-image: url(images/bnnr/VFX-PRIME.jpg);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    </style>
 </head>
 <body>
-    <?php include '../nav-bar.php'; ?>
+    <?php include 'nav-bar.php'; ?>
     <div class="container-fluid course-banner" >
-      <img src="../images/vfx-prime.jpg">
-      <div class="row">
-        <div class="course-title card-1">
-          <h2>ANIMATION PRIME</h2>
-      </div>
-      <div class=" course-intro card-2">
-          <h3>Animate your imagination</h3>
+    </div>
+    <div class="container-fluid ">
+    <div class="row">
+        <div class="col-md-6 course-title ">
+          <h2 class="card-1 p-5 mt-4">VFX PRIME</h2>
+        </div>
+      <div class="col-md-6 course-intro card-2">
+          <h3>Enhance your imagination with special Effects</h3>
           <p>
-           Whatever one can imagine, now it's possible to create it. Well, not literally,nut on screen. Animation makes it all possible. It's a world that offers students countless oppertunities to realize their dreams. They can create and build characters, cartoons and other in animate objects right from scratch. And that's not all. Students can create unlimited number of things, ranging from humans to robots to extinct animals like mammoths, as well as creatures from stories and fables like fairies and monsters.
+            Where reality meets and blends with the imagination,VFX begins. The demand for VFX has been rising relentlessly with the production of movies and television shows set in fantasy worlds with imaginary creatures like dragons,magical realms,extratresstial planets and galaxies, and more. VFX helps transform the ordinary into something Extradinory.
            </p>
            <a href="" class="white-btn w-25 mx-auto text-center">Join Us</a>
       </div>
     </div>
     </div>
-      <div class="container-fluid text-center mt-4" >
-         <h2 class="text-primary border border-primary p-2">ANIMATION PRIME OVERVIEW</h2>
-        <p class="text-center p-2">It offers complete training in all aspects of animation  to make its students capable of employmeny and progress in the animation industry.</p>
+    <div class="container-fluid course-cont">
+        <h4 class="text-center p-4">VFX has gained prominence for the following reasons:</h4>
+        <div class="row">
+            <div class="col-md-3 p-5 text-center"> 
+                <h6 class="p-2">FILM AND TELEVISON</h6>
+                <p>The increasing use of VFX across the globe and in indian films and the studpendous success of these movies with its spectacular visual effects have led to the advent of an even greater number of studios specializing in VFX.</p>
+            </div>
+            <div class="col-md-3 p-5 text-center"> 
+                <h6>ADVERTISING</h6>
+                <p>Use of VFX in advertising is on the rise, helping products stand out in this cut-throat world competition.</p>
+            </div>
+            <div class="col-md-3 p-5 text-center"> 
+                <h6>Gaming</h6>
+                <p>From intellectual games to gore to fantasy games,the demand for video games across genres and ages is on the rise.</p>
+            </div>
+            <div class="col-md-3 p-5 text-center"> 
+                <h6>Internet</h6>
+                <p>The internet is here to stay and its reach is only going to grow further. there is a growing demand for VFX professionals to build websites and microsites and create digital content that is of the next level.</p>
+            </div>
+        </div>
     </div>
     <div class="container-fluid">
-        <h5 class="text-center p-5">Animation Prime, a comprehensive training program in the fundamentals and techniques of animation, provides all-inclusive understanding of the latest tools and softwares used in the animation process. It prepares students to set theis imagination free through a lively animation career.</h5>
+        <h5 class="text-center p-5">VFX  prime offers end-to-end training on the latest and most advanced toold in the industry. The program is structured across three terms:</h5>
     </div>
-   
     <!-- Terms card -->
     <div class="container-fluid">
         <div class="row">
@@ -138,11 +163,12 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid text-center bg-primary p-5 text-white course-job" >
+    </div>
+    <div class="container-fluid text-center bg-primary p-5 text-white course-job " >
             <h4 >On Completion, this program opens up a wide range of job roles for the students.</h4>
             <p>Graphic Designer | Story board artist | Video Editor | 3D Modeler | 3D Animator | Rigging Artist | Texturing Artist | Lighting Artist | Rendering Artist | Compositor | previs Artisr | VFX Artist | Roto and Paint Artisr | Mathcmove Artist | Tracking Artist</p>
         </div>
-    </div>
+    
     
 <?php $path =$_SERVER["DOCUMENT_ROOT"].'/arena/courses';
     include $path.'/footer.php' ?>

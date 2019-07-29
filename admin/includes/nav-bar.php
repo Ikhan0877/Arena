@@ -3,9 +3,7 @@
             <img src="images/arena-animation-logo.jpg" alt="animationkamanahalli-logo" style="width:50px;">
       </a>
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link text-primary" href="index.php">Home</a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link text-primary" href="addevents.php">ADD EVENTS</a>
         </li>
